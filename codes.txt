@@ -24,3 +24,12 @@ public static boolean loginAcc(String username, String password){
         }
 
     }
+
+ if(loginAcc(user.getText(),pass.getText())){
+          JOptionPane.showMessageDialog(null,"Log-in Successfully");
+             adminDash ads = new adminDash();
+          ads.setVisible(true);
+          this.dispose();
+      }else{
+           JOptionPane.showMessageDialog(null,"Log-in Failed");
+      }
