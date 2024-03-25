@@ -33,3 +33,12 @@ public static boolean loginAcc(String username, String password){
       }else{
            JOptionPane.showMessageDialog(null,"Log-in Failed");
       }
+
+
+git init
+git add . 
+git config --global user.name 'cristianlyle'
+git config --global user.email 'cristianlyle@gmail.com'
+git status
+git commit -m 'first commit'
+git remote add origin https://github.com/cristianlyle/sampleApp
